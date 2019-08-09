@@ -5,9 +5,9 @@ const barHeight = Math.round(GameWidth * 0.04);
 const barStep = Math.round(GameWidth / 20);
 const ballRadius = Math.round(GameWidth * 0.07);
 const ballStep = Math.round(GameWidth / 20);
-const maxScore = 30;
-const maxMiss = 0;
-const maxMoves = 10;
+const maxScore = 10;
+const maxMiss = 3;
+const maxMoves = 20;
 
 function genBallXPos() {
   const maxValue = GameWidth - 2 * ballRadius;
